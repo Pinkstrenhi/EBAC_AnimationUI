@@ -8,7 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Button/ButtonScaler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/ButtonStart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/ManagerScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Screen/ScreenHelper.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -84,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684186991980</updated>
       <workItem from="1684186996815" duration="3847000" />
-      <workItem from="1684279547810" duration="3441000" />
+      <workItem from="1684279547810" duration="4039000" />
     </task>
     <servers />
   </component>
