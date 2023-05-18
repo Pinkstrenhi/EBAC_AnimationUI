@@ -9,6 +9,6 @@ public class ButtonChangeScene : MonoBehaviour
     public void OnClick()
     {
         Debug.Log("Change Scene");
-        SceneManager.LoadScene(scene, LoadSceneMode.Additive);
+        SceneManager.LoadScene(scene, LoadSceneMode.Single);
     }
 }

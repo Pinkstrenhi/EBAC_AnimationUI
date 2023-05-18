@@ -38,4 +38,12 @@ public class ButtonScaler : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         transform.localScale = _defaultScale;
         image.color = _colorStart;
     }
+
+    private void OnDisable()
+    {
+        _currentTween.Kill();
+        _currentTween = null;
+        transform.localScale = _defaultScale;
+        image.color = _colorStart;
+    }
 }

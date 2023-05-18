@@ -411,7 +411,8 @@ MonoBehaviour:
   objects:
   - {fileID: 8262818934369406372}
   - {fileID: 560595420}
-  phrases: []
+  phrases:
+  - {fileID: 62434534}
   startHided: 1
   uiBackground: {fileID: 762183727}
   timeBetweenObjects: 0.05
