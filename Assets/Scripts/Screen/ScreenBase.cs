@@ -14,7 +14,8 @@ namespace Screens
         PanelInfo,
         PanelShop,
         PanelAbout,
-        PanelMenu
+        PanelMenu,
+        PanelPlay
     }
     public class ScreenBase : MonoBehaviour
     {
