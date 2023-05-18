@@ -9,6 +9,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/ButtonStart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/Functions/ButtonChangeScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/Functions/ButtonClose.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/ManagerScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Screen/ScreenHelper.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -84,7 +86,8 @@
       <option name="presentableId" value="Default" />
       <updated>1684186991980</updated>
       <workItem from="1684186996815" duration="3847000" />
-      <workItem from="1684279547810" duration="4039000" />
+      <workItem from="1684279547810" duration="4324000" />
+      <workItem from="1684363406315" duration="6926000" />
     </task>
     <servers />
   </component>
