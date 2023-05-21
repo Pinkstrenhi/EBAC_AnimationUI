@@ -12,12 +12,20 @@ namespace Screens
         public TypeScreen screenStart = TypeScreen.Panel;
         private ScreenBase _screenCurrent;
 
+        public Vector3 extensionsVectorTest;
         private void Start()
         {
+            //transform.Scale(2f);
+            //gameObject.ScaleGameObject(2f);
+            //extensionsVectorTest.ScaleVector(2f);
             HideAll();
             ShowByType(screenStart);
         }
 
+        /*public void Scale(Transform scaleTransform, float scaleSize = 1.2f)
+        {
+            scaleTransform.localScale = Vector3.one * scaleSize; 
+        }*/
         public void ShowByType(TypeScreen type)
         {
             if (_screenCurrent != null)
