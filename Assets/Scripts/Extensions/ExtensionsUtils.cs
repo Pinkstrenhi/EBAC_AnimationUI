@@ -16,4 +16,29 @@ public static class ExtensionsUtils
     {
         scaleGameObject.transform.localScale = Vector3.one * scaleSize; 
     }
+
+    public static T GetRandom<T>(this List<T> list)
+    {
+        return list[Random.Range(0, list.Count)];
+    }
+
+    public static T GetRandom<T>(this T[] array)
+    {
+        if (array.Length == 0)
+        {
+            return default(T);
+        }
+
+        return array[Random.Range(0, array.Length)];
+    }
+
+    public static T GetRandomButNotTheSame<T>(this List<T> list, T unique)
+    {
+        if (list.Count == 1)
+        {
+            return unique;
+        }
+        var randomIndex = Random.Range(0, list.Count);
+        return list[randomIndex];
+    }
 }
