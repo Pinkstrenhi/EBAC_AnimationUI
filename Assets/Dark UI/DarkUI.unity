@@ -476,6 +476,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amountScale: 1.2
   durationScale: 0.1
+  colorScale: {r: 0, g: 0, b: 0, a: 0}
   image: {fileID: 0}
 --- !u!1 &304132656
 GameObject:
@@ -525,6 +526,8 @@ MonoBehaviour:
   - {fileID: 164558442}
   - {fileID: 4502059923600194101}
   screenStart: 0
+  extensionsVectorTest: {x: 0, y: 0, z: 0}
+  extensionsListObjectsTest: []
 --- !u!224 &340564222 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6559084728031744814, guid: e2541b822c0a4a5438b4f733059d8286, type: 3}
@@ -789,6 +792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amountScale: 1.2
   durationScale: 0.1
+  colorScale: {r: 0, g: 0, b: 0, a: 0}
   image: {fileID: 0}
 --- !u!114 &635890588
 MonoBehaviour:
@@ -827,6 +831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amountScale: 1.2
   durationScale: 0.1
+  colorScale: {r: 0, g: 0, b: 0, a: 0}
   image: {fileID: 0}
 --- !u!1 &784629122 stripped
 GameObject:
@@ -852,6 +857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amountScale: 1.2
   durationScale: 0.1
+  colorScale: {r: 0, g: 0, b: 0, a: 0}
   image: {fileID: 0}
 --- !u!1 &865804850
 GameObject:
@@ -929,6 +935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amountScale: 1.2
   durationScale: 0.1
+  colorScale: {r: 0, g: 0, b: 0, a: 0}
   image: {fileID: 0}
 --- !u!1 &1311921509
 GameObject:
@@ -1034,6 +1041,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amountScale: 1.2
   durationScale: 0.1
+  colorScale: {r: 0, g: 0, b: 0, a: 0}
   image: {fileID: 0}
 --- !u!224 &1464442739 stripped
 RectTransform:
@@ -1064,6 +1072,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amountScale: 1.2
   durationScale: 0.1
+  colorScale: {r: 0, g: 0, b: 0, a: 0}
   image: {fileID: 0}
 --- !u!224 &1592495066 stripped
 RectTransform:
@@ -1094,7 +1103,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amountScale: 1.2
   durationScale: 0.1
+  colorScale: {r: 0, g: 0, b: 0, a: 0}
   image: {fileID: 0}
+--- !u!1 &1819649712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1819649713}
+  - component: {fileID: 1819649714}
+  m_Layer: 0
+  m_Name: Car
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1819649713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819649712}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1819649714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819649712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 795d3479a5477d240877c6cd74bd74c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
+  gear: 5
 --- !u!1 &1927525000 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1347561139538502237, guid: d9f1eab8509cab84c8deac6f16b2db0c, type: 3}
@@ -1119,6 +1175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amountScale: 1.2
   durationScale: 0.1
+  colorScale: {r: 0, g: 0, b: 0, a: 0}
   image: {fileID: 0}
 --- !u!1 &1956746695
 GameObject:
@@ -1196,6 +1253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amountScale: 1.2
   durationScale: 0.1
+  colorScale: {r: 0, g: 0, b: 0, a: 0}
   image: {fileID: 0}
 --- !u!114 &2129496412
 MonoBehaviour:

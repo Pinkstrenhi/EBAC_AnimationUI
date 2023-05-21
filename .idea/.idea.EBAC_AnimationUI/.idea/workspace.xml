@@ -11,6 +11,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/ButtonStart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/Functions/ButtonChangeScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/Functions/ButtonClose.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Car/Car.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/Car/EditorCar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Extensions/ExtensionsUtils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/ManagerScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Screen/ScreenHelper.cs" root0="FORCE_HIGHLIGHTING" />
@@ -92,7 +94,8 @@
       <workItem from="1684380950240" duration="711000" />
       <workItem from="1684452357451" duration="193000" />
       <workItem from="1684631393466" duration="958000" />
-      <workItem from="1684695396240" duration="616000" />
+      <workItem from="1684695396240" duration="1283000" />
+      <workItem from="1684701422748" duration="1815000" />
     </task>
     <servers />
   </component>
