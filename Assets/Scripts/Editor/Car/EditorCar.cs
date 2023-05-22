@@ -28,7 +28,7 @@ public class EditorCar : Editor
         GUI.color = Color.blue;
         if (GUILayout.Button("Test Color"))
         {
-            myTarget.CreateCar();
+            Debug.Log("Testing button color");
         }
     }
 }

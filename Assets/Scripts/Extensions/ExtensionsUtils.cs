@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using UnityEngine;
 
-public static class ExtensionsUtils 
+public static class ExtensionsUtils
 {
     #if UNITY_EDITOR
         [UnityEditor.MenuItem("Ebac/Test01")]
@@ -14,6 +15,12 @@ public static class ExtensionsUtils
         public static void Test02()
         {
             Debug.Log("Test02");
+        }
+        [UnityEditor.MenuItem("Ebac/CreateCube %e")]
+        public static void ButtonCreateCube()
+        {
+            var cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            Debug.Log("Created");
         }
     #endif
     
